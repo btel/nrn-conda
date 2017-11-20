@@ -7,10 +7,12 @@ source:
    url : http://www.neuron.yale.edu/ftp/neuron/versions/v7.3/nrn-7.3.tar.gz
   
 build:
-   number : 0
+   number : 1
  
 
 requirements:
    build: 
      - python
+     - readline
+   run:
      - readline
